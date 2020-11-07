@@ -22,6 +22,7 @@ function setup() {
   //fill(255,192,203)
   stand1= new Ground(810,420,250,15)
   stand2= new Ground(1300,150,180,15)
+  ground= new Ground(750,800,1600,150)
   block1= new Box(720,400,30,40)
   block2= new Box(750,400,30,40)
   block3= new Box(780,400,30,40)
@@ -56,7 +57,7 @@ function setup() {
 
 function draw() {
   //rectMode(CENTER);
-  background(255);
+  background(210,210,210);
   hexagon.display();
   fill(222,127,165)
   block1.display();
@@ -69,6 +70,7 @@ function draw() {
   fill(188,66,65)
   stand1.display();
   stand2.display();
+  ground.display();
   fill(139,0,247)
   block8.display();
   block9.display();
